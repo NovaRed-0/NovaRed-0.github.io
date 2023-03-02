@@ -28,11 +28,9 @@
     }
 
     h1 {
-    	text-align: center;
-		border-bottom: solid;
-      border-bottom-width: 5px;
-		border-bottom-color: red;
-		color: red;
+      text-align: center;
+      color: red;
+      font-size: 52px;
     }
 
     #MainT {
@@ -40,45 +38,63 @@
       top: 0px;
       color: red;
       font-size: 72px;
-      border-bottom: solid;
-      border-bottom-width: 5px;
-      margin-top: 25px;
+      margin-top: px;
       margin-bottom: 0px;
       text-align: center;
     }
-	 #text {
-	 	font-size: 15px;
-	 	position: relative;
-		top : 130px;
-	 }
-	 #MainP {
-	 	font-size: 30px;
-		font-weight: bold;
-		text-indent: 20px;
-		border-bottom: solid;
+
+    #text {
+      font-size: 15px;
+      position: relative;
+      top: 130px;
+    }
+
+    #MainP {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      border: solid;
+      border-width: 5px;
+      border-color: red;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: rgba(75, 75, 75);
+
+    }
+
+    .links {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .Body {
+      background-color: rgba(75, 75, 75);
+      border: solid;
+      border-color: red;
+      border-width: 5px;
+    }
+
+    .b {
       border-bottom-width: 5px;
-		border-bottom-color: red;
-		margin-top: 20px;
-		margin-bottom: 0px;
-		padding-bottom: 10px;
-	 }
-	 .links {
-	 	text-align: center;
-	 }
-	 
+      border-bottom-color: red;
+    }
 
   </style>
 
   <body>
-  
-    <h1 id="MainT"> NOVAr</h1>
-	 <p id="MainP"> Redstone, Creations, Codeing and More! </p>
-    <h1>Links</h1>
-	 <p class = "links"> <a>About Me</a> </p>
-	 <p class = "links"> <a> Geinus Hour Project</a> </p>
-	 <p id = "text"> Made on Feb, 28,2023 </p>
-	 
 
+    <h1 id="MainT"> NOVAr</h1>
+
+    <p id="MainP"> Redstone, Creations, Codeing and More! </p>
+
+    <h1 class="b">Links</h1>
+    <div class="Body">
+      <p class="links"> <a>About Me</a> 
+		<br>
+		<a> Geinus Hour Project</a> </p>
+      <p id="text"> Made on Feb, 28,2023 </p>
+    </div>
   </body>
 
 </html>
+
